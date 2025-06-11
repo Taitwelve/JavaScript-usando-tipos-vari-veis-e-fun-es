@@ -13,4 +13,10 @@ if (estudante === "Fernando") {
     console.log(`Você não é o Fernando, quem é você?`);
 }
 
- 
+ //Exemplos de coerção de tipos
+
+let valorString = '10';
+let valorNumero = 5;
+
+let resultado = valorString + valorNumero;
+console.log(resultado);
