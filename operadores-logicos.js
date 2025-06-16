@@ -14,3 +14,10 @@ if (notaFinal < 7 && faltas > 4) {
     console.log("Aprovado");
 }
 
+//exemplo de operadores lógicos com negação
+const nota = 9;
+if (!(nota >= 7)) {
+    console.log("Reprovado");
+}   else {
+    console.log("Aprovado");
+}
