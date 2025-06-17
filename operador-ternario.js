@@ -22,15 +22,15 @@ console.log(verificaMatriculaAtiva());
 
 //+-------------------------------------------------------------------------------
 
-let idadeEstudante = 21;
-let precisaDeAutorizacao;
+// let idadeEstudante = 21;
+// let precisaDeAutorizacao;
 
-if (idadeEstudante < 18) {
-    precisaDeAutorizacao = true;
-} else {
-    precisaDeAutorizacao = false;
-}
-console.log(precisaDeAutorizacao);
+// if (idadeEstudante < 18) {
+//     precisaDeAutorizacao = true;
+// } else {
+//     precisaDeAutorizacao = false;
+// }
+// console.log(precisaDeAutorizacao);
 
 // Refatorando a verificação de autorização usando operador ternário
 let idadeEstudante = 16;
