@@ -10,6 +10,4 @@ let media = (notaPrimeiroBimestre + notaSegundoBimestre + notaTerceiroBimestre +
 if (media >= 7) {
     media +=media * 0.1; // Aumenta a média em 10% se for maior ou igual a 7
 }
-
-
 console.log(`A média é: ${media.toFixed(2)}`);
